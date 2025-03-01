@@ -60,6 +60,6 @@ def ping_form_view(request):
 
     return render(
         request,
-        "checker/index.html",
+        "checker/index.html/",
         {"form": form, "result": result, "ip_info": ip_info},
     )
